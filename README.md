@@ -5,7 +5,9 @@ team knowledge (Problem / Solution, Information, Procedure) before it is reviewe
 
 ## Download
 
-1. Open the [**latest release**](../../releases/latest) and download `ReleaseKnowledgeCapture-v1.0.0.zip`.
+1. Open the [**latest release**](../../releases/latest) and download `ReleaseKnowledgeCapture.zip`,
+   or use this direct link, which always fetches the newest version:
+   [ReleaseKnowledgeCapture.zip](../../releases/latest/download/ReleaseKnowledgeCapture.zip)
 2. The zip is **password-protected** (AES-256). Ask the maintainer for the password.
 3. Open it with **7-Zip** or **WinRAR**. The zip opener built into Windows can't open AES-encrypted zips.
 
@@ -18,8 +20,12 @@ team knowledge (Problem / Solution, Information, Procedure) before it is reviewe
 
 ## First launch
 
-The app asks for your full name once, then creates the folder `RCK Entry (<your name>)` on your
-Desktop. Every entry you capture is saved there as a JSON file with status *pending review*. Later
-launches go straight to the home screen and reuse the same folder.
+The app opens maximized and asks for your full name once, then creates the folder
+`RCK Entry (<your name>)` on your Desktop. Later launches go straight to the home screen and reuse the
+same folder.
+
+When you save an entry, you can name the file yourself (for example `PDM issue FLS 1`) or let the
+system name it. Every entry is saved as a JSON file with status *pending review*. The home screen lists
+your entries so you can edit or delete them later.
 
 To hand your knowledge over for RCK, send the `RCK Entry (…)` folder to the maintainer.

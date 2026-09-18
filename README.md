@@ -1,17 +1,34 @@
 # Release Knowledge Capture: download
 
-This page is only for downloading **Release Knowledge Capture**, a small Windows app for capturing
+This page is only for downloading **Release Knowledge Capture**, a small Windows and Mac app for capturing
 team knowledge (Problem / Solution, Information, Procedure) before it is reviewed in RCK.
 
-## Download
+## Download for Windows
 
 1. Open the [**latest release**](../../releases/latest) and download `ReleaseKnowledgeCapture.zip`,
    or use this direct link, which always fetches the newest version:
    [ReleaseKnowledgeCapture.zip](../../releases/latest/download/ReleaseKnowledgeCapture.zip)
 2. The zip is **password-protected** (AES-256). Ask the maintainer for the password.
+   Mac users: see [Mac](#mac) below.
 3. Open it with **7-Zip** or **WinRAR**. The zip opener built into Windows can't open AES-encrypted zips.
 
-## Inside the zip
+## Mac
+
+1. Download the DMG for your Mac. To check which you have, open the Apple menu and choose *About This Mac*:
+   - **Apple Silicon** (*Chip: Apple M1/M2/M3/M4…*):
+     [ReleaseKnowledgeCapture-mac-arm64.dmg](../../releases/latest/download/ReleaseKnowledgeCapture-mac-arm64.dmg)
+   - **Intel** (*Processor: Intel…*):
+     [ReleaseKnowledgeCapture-mac-intel.dmg](../../releases/latest/download/ReleaseKnowledgeCapture-mac-intel.dmg)
+2. Double-click the DMG and enter the **password** (the same one as for Windows).
+3. Drag **Release Knowledge Capture** onto **Applications**.
+4. **First open only:** macOS blocks apps from outside the App Store until you approve them.
+   - **macOS 15 or newer:** open the app once, then go to *System Settings > Privacy & Security* and
+     click **Open Anyway**.
+   - **Older versions:** Control-click the app and choose **Open**.
+
+   `READ ME FIRST.txt` inside the DMG has the details.
+
+## Inside the Windows zip
 
 | File | What it is |
 |------|------------|
